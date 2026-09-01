@@ -1,7 +1,7 @@
 @echo off
 setlocal enabledelayedexpansion
 
-set REPO=C:\Users\virat.arya\ETG\SoftsDatabase - Documents\Database\Hardmine\Interim_Migration\Roll Yield
+set REPO=C:\Users\virat.arya\ETG\SoftsDatabase - Documents\Database\Hardmine\LSEG\Roll Yield
 set LOG=%REPO%\Automater\run_log.txt
 set SCRIPT=%REPO%\Code\ingest_lseg.py
 set MAILER=%REPO%\Automater\send_mail.py
