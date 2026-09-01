@@ -41,7 +41,7 @@ if !ERRORLEVEL! NEQ 0 (
     python "%MAILER%" SUCCESS "Parquet updated and pushed to GitHub."
 ) else (
     echo %DATE% %TIME% -- No parquet changes, skipping commit >> "%LOG%"
-    python "%MAILER%" SUCCESS "Ingest ran but no new data — parquet unchanged."
+    python "%MAILER%" SUCCESS "Ingest ran but no new data - parquet unchanged."
 )
 
 echo %DATE% %TIME% -- DONE >> "%LOG%"
